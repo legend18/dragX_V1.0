@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+        @brief    引导框提示内容
+        @date     2014-07-26
+ -->
+<item>
+    <content id="1"  text="有新的技能可以学习快去看看吧"/>
+    <content id="2"  text="去寻找目标，继续冒险之旅吧"/>
+    <content id="3"  text="新的任务出现了，赶紧去看看啊"/>
+    <content id="4"  text="去和好友聊聊天交流下冒险心得"/>
+    <content id="5"  text="补充下道具准备下次的探险"/>
+    <content id="6"  text="打造更多神兵利器，提升战斗力"/>
+    <content id="7"  text="闲来无事去逛逛"/>
+</item>

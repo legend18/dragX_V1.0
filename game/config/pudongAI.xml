@@ -1,0 +1,30 @@
+<!-- 被2011 rel. 2 sp1 (seven) 使用XMLSpy vIBM编辑的 (http://www.altova.com) by -->
+<!--fNormMoveF:平时的移动系数
+ iNormAnim:平时的动画名称, （-1  表示没有这个动画）
+ fAtkDur:攻击间隔
+ iAtkAnim:平时的动画名称   （-1  表示没有这个动画）
+ iAtkEfctTp:攻击特效编号    （－1 没有特效）
+ fAtkMoveF:处在攻击时间内的移动系数
+ fAtkDurFar:远攻击间隔， －1：该字段不采用或者是其它含义
+ iAtkEfctTpFar:攻击特效编号    （－1 没有特效）
+ fAtkFarMoveF:远攻击时的移动系数
+ fAtkDurNear:近攻击间隔 －1：该字段不采用或者是其它含义
+ iAtkEfctTpNear:攻击特效编号    （－1 没有特效）
+ fAtkNearMoveF:远攻击时的移动系数
+ iAtkAreaR: 攻击区域半径    -1 没有攻击区域
+ iSubAtkAreaR: 攻击区域半径是否还有区分   －1 没有区分
+ iWarnAreaR: 警戒区域半径    -1 没有警戒区域
+ iWarnAnim:警戒时的动画名称   （-1  表示没有这个动画）
+ fWarnMoveF:警戒时的移动系数
+ bNeedFlip: 0 无镜像转身      1 有镜像转身
+ bCheckAtk: 在非攻击区是否有检测被攻击 0：无     1：有 （被攻击了进入警戒状态）
+-->
+<Config>
+	<pudongAI ID="1" typeID="101" fNormMoveF="1" iNormAnim="1" fAtkDur="1" iAtkAnim="-1" iAtkEfctTp="-1" fAtkMoveF="-1" fAtkDurFar="-1" iAtkEfctTpFar="-1" fAtkFarMoveF="-1" fAtkDurNear="-1" iAtkEfctTpNear="-1" fAtkNearMoveF="-1" iAtkAreaR="-1" iSubAtkAreaR="-1" iWarnAreaR="-1" iWarnAnim="-1" fWarnMoveF="-1" bNeedFlip="0" bCheckAtk="0"/>
+	<pudongAI ID="2" typeID="102" fNormMoveF="1" iNormAnim="2" fAtkDur="1" iAtkAnim="-1" iAtkEfctTp="-1" fAtkMoveF="-1" fAtkDurFar="-1" iAtkEfctTpFar="-1" fAtkFarMoveF="-1" fAtkDurNear="-1" iAtkEfctTpNear="-1" fAtkNearMoveF="-1" iAtkAreaR="-1" iSubAtkAreaR="-1" iWarnAreaR="-1" iWarnAnim="-1" fWarnMoveF="-1" bNeedFlip="0" bCheckAtk="0"/>
+	<pudongAI ID="3" typeID="103" fNormMoveF="1" iNormAnim="1" fAtkDur="1" iAtkAnim="-1" iAtkEfctTp="-1" fAtkMoveF="-1" fAtkDurFar="-1" iAtkEfctTpFar="-1" fAtkFarMoveF="-1" fAtkDurNear="-1" iAtkEfctTpNear="-1" fAtkNearMoveF="-1" iAtkAreaR="-1" iSubAtkAreaR="-1" iWarnAreaR="-1" iWarnAnim="-1" fWarnMoveF="-1" bNeedFlip="1" bCheckAtk="0"/>
+	<pudongAI ID="4" typeID="104" fNormMoveF="1" iNormAnim="2" fAtkDur="1" iAtkAnim="-1" iAtkEfctTp="-1" fAtkMoveF="-1" fAtkDurFar="-1" iAtkEfctTpFar="-1" fAtkFarMoveF="-1" fAtkDurNear="-1" iAtkEfctTpNear="-1" fAtkNearMoveF="-1" iAtkAreaR="-1" iSubAtkAreaR="-1" iWarnAreaR="-1" iWarnAnim="-1" fWarnMoveF="-1" bNeedFlip="1" bCheckAtk="0"/>
+	<pudongAI ID="5" typeID="105" fNormMoveF="1" iNormAnim="2" fAtkDur="1" iAtkAnim="3" iAtkEfctTp="-1" fAtkMoveF="0" fAtkDurFar="-1" iAtkEfctTpFar="-1" fAtkFarMoveF="-1" fAtkDurNear="-1" iAtkEfctTpNear="-1" fAtkNearMoveF="-1" iAtkAreaR="500" iSubAtkAreaR="-1" iWarnAreaR="-1" iWarnAnim="-1" fWarnMoveF="-1" bNeedFlip="1" bCheckAtk="0"/>
+	<pudongAI ID="6" typeID="106" fNormMoveF="1" iNormAnim="1" fAtkDur="1" iAtkAnim="3" iAtkEfctTp="-1" fAtkMoveF="0" fAtkDurFar="-1" iAtkEfctTpFar="-1" fAtkFarMoveF="-1" fAtkDurNear="-1" iAtkEfctTpNear="-1" fAtkNearMoveF="-1" iAtkAreaR="500" iSubAtkAreaR="-1" iWarnAreaR="-1" iWarnAnim="-1" fWarnMoveF="-1" bNeedFlip="1" bCheckAtk="0"/>
+	<pudongAI ID="7" typeID="107" fNormMoveF="0" iNormAnim="1" fAtkDur="1" iAtkAnim="3" iAtkEfctTp="-1" fAtkMoveF="0" fAtkDurFar="4" iAtkEfctTpFar="1" fAtkFarMoveF="0" fAtkDurNear="3" iAtkEfctTpNear="2" fAtkNearMoveF="0" iAtkAreaR="500" iSubAtkAreaR="400" iWarnAreaR="1100" iWarnAnim="2" fWarnMoveF="1" bNeedFlip="1" bCheckAtk="1"/>
+</Config>
